@@ -1,0 +1,33 @@
+{
+  "info": {
+    "_postman_id": "fa01a53a-be11-4922-9b0a-ed60af5ccade",
+    "name": "Token Security",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50970571",
+    "_collection_link": "https://go.postman.co/collection/50970571-fa01a53a-be11-4922-9b0a-ed60af5ccade?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Login",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create User",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ]
+}

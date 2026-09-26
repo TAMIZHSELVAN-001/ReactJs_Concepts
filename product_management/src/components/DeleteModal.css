@@ -1,0 +1,165 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(15, 23, 42, 0.55);
+
+  z-index: 1000;
+
+  padding: 20px;
+}
+
+/* Modal */
+
+.delete-modal {
+  position: relative;
+
+  width: 420px;
+  max-width: 100%;
+
+  padding: 32px;
+
+  background: white;
+  border-radius: 16px;
+
+  text-align: center;
+
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.2);
+
+  animation: modalOpen 0.2s ease-out;
+}
+
+/* Animation */
+
+@keyframes modalOpen {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Close */
+
+.modal-close {
+  position: absolute;
+
+  top: 14px;
+  right: 14px;
+
+  width: 34px;
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #f1f5f9;
+  color: #64748b;
+
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  background: #e2e8f0;
+}
+
+/* Warning icon */
+
+.warning-icon {
+  width: 60px;
+  height: 60px;
+
+  margin: 0 auto 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+/* Text */
+
+.delete-modal h2 {
+  margin: 0;
+
+  font-size: 21px;
+  font-weight: 700;
+
+  color: #0f172a;
+}
+
+.delete-modal p {
+  margin: 12px 0 0;
+
+  color: #64748b;
+
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.delete-modal strong {
+  color: #0f172a;
+}
+
+.modal-warning {
+  font-size: 13px !important;
+  color: #dc2626 !important;
+}
+
+/* Buttons */
+
+.modal-actions {
+  display: flex;
+  gap: 12px;
+
+  margin-top: 26px;
+}
+
+.modal-actions button {
+  flex: 1;
+
+  height: 42px;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.cancel-btn {
+  border: 1px solid #cbd5e1;
+  background: white;
+  color: #334155;
+}
+
+.cancel-btn:hover {
+  background: #f8fafc;
+}
+
+.confirm-delete-btn {
+  border: none;
+  background: #dc2626;
+  color: white;
+}
+
+.confirm-delete-btn:hover {
+  background: #b91c1c;
+}

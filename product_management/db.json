@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "name": "MRF",
+      "category": "Cricket",
+      "price": 3004,
+      "stock": 40,
+      "id": "0OYZ4tlXz4U"
+    },
+    {
+      "name": "MRF Cricket BAT",
+      "category": "Cricket",
+      "price": "3000",
+      "stock": "120",
+      "id": "LKxW0-NpZK4"
+    },
+    {
+      "name": "VOLLEY BALL",
+      "category": "BALL",
+      "price": 500,
+      "stock": 22,
+      "id": "rNIbG9dt3TA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
